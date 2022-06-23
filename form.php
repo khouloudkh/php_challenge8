@@ -27,10 +27,10 @@
       <div>
         <label for="subject">sujet :</label>
         <SELECT name="subject" size="1">
-        <OPTION value="option 1">demande d'informations</OPTION>
-        <OPTION value="option 2" selected>prise de rendez-vous</OPTION>
-        <OPTION value="option 3">suivi d'instruction</OPTION>
-        <OPTION value="option 4">avis sur nos services</OPTION>
+        <OPTION value="demande d'informations">demande d'informations</OPTION>
+        <OPTION value="prise de rendez-vous" selected>prise de rendez-vous</OPTION>
+        <OPTION value="suivi d'instruction">suivi d'instruction</OPTION>
+        <OPTION value="avis sur nos services">avis sur nos services</OPTION>
         </SELECT>
       </div>
       <div>
@@ -44,6 +44,6 @@
 </html>
 
 <?php
-header('Location: http://localhost:8001/thanks.php');
-exit();
+//header('Location: http://localhost:8001/thanks.php');
+//exit();
 ?>
